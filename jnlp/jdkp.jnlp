@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP file for jdkp -->
+<jnlp spec="7.0+" codebase="http://eqdkp-plus.eu/jdkp/" href="jnlp/jdkp.jnlp">
+	<information>
+	       <title>jdkp</title>
+	       <vendor>EQDKP Plus</vendor>
+	       <homepage href="https://eqdkp-plus.eu"/>
+	       <description>DKP XML downloader for EQDKP Plus 1.0</description>
+	       <icon href="img/icons/mainicon.png"/>
+	       <shortcut online="true" install="true">
+		      <desktop/>
+	       </shortcut>
+	</information>
+	<update check="always" policy="always"/>
+	<security>
+	<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se"/>
+		<jar href="jar/jdkp.jar"/>
+		<jar href="jar/res.jar"/>
+		<!--
+		<jar href="jar/control.jar"/>
+		<jar href="jar/gui.jar"/>
+		<jar href="jar/output.jar"/>
+		<jar href="jar/parse.jar"/>
+		<jar href="jar/rest.jar"/>
+		<jar href="jar/util.jar"/>
+		<jar href="jar/prf.jar"/>
+		-->
+		<jar href="jar/lib/bcel-5.2.jar"/>
+		<jar href="jar/lib/jersey-client-1.18.jar"/>
+		<jar href="jar/lib/jersey-core-1.18.jar"/>
+	</resources>
+	<application-desc main-class="com.eqdkplus.jdkp.main.Main"/>
+</jnlp>

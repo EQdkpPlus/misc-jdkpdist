@@ -1,0 +1,3 @@
+RewriteEngine on 
+#RewriteCond %{SERVER_PORT} ^443
+#RewriteRule ^(.*)$ http://eqdkp-plus.eu/jdkp/$1 [R=301,L]
